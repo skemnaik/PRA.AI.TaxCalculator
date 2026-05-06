@@ -4,8 +4,8 @@ export default function About({ onBack }) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-background flex flex-col font-sans pb-20">
       <div className="max-w-4xl mx-auto px-4 py-16 w-full flex-grow animate-in fade-in slide-in-from-bottom-8 duration-500">
-        
-        <button 
+
+        <button
           onClick={onBack}
           className="mb-8 flex items-center text-textSecondary hover:text-primary transition-colors font-medium"
         >
@@ -17,13 +17,16 @@ export default function About({ onBack }) {
 
         <div className="bg-white w-full rounded-3xl shadow-xl border border-border p-8 md:p-12 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-2 bg-primary"></div>
-          
+
           <h1 className="text-3xl sm:text-4xl font-bold text-textPrimary mb-8 text-center">About Me</h1>
-          
+
           <div className="space-y-10 text-textSecondary">
-            
+
             {/* Summary */}
             <section>
+              <h2 className="text-xl font-bold text-textPrimary mb-3 flex items-center gap-2">
+                <span className="text-2xl">📋</span> Suresh C. Kemnaik
+              </h2>
               <h2 className="text-xl font-bold text-textPrimary mb-3 flex items-center gap-2">
                 <span className="text-2xl">📋</span> Summary
               </h2>
@@ -103,7 +106,7 @@ export default function About({ onBack }) {
                   </h3>
                   <p className="text-sm">Presented initiative solutions during time-critical projects, boosting team efficiency.</p>
                 </div>
-                
+
                 <div className="p-5 bg-green-50/50 border border-green-100 rounded-2xl">
                   <h3 className="font-bold text-textPrimary flex items-center gap-2 mb-1">
                     <svg className="w-5 h-5 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
