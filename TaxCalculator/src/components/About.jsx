@@ -29,20 +29,6 @@ export default function About({ onBack }) {
               </h2>
               <p className="leading-relaxed bg-gray-50 p-6 rounded-2xl border border-border">
                 I am a Seasoned Technical AI Business Analyst with 10+ years of experience. Specialising in AI, Data analytics, turning complicated data insight into successful business strategies with proficiency in AI Tools, C#, Python, SQL and Power BI.
-
-                👉 Extensive experience in Insurance, Auto, Investment banking, Energy, Regulatory, Compliance, Credit Administration, Commodity software, Logistic, Media and Jewellery industry.
-
-                👉 Oversaw end-to-end Agile software development and product life cycle stages, including discovery, definition, development, testing, deployment, and post-launch optimization, resulting in 25% faster releases.
-
-                👉 Expertise in SDLC (Agile Scrum/ Waterfall / Kanban), Process flow design, Visio, UML, Use Cases, Activity diagrams, Sequence Diagrams, Data flow diagrams.
-
-                👉 Modern software development practice with CI/CD concepts, pipelines, Infrastructure as Code (IaC) tools Terraform. DevOps practices, automated testing, release automation, Cloud platforms (Azure, AWS, GCP), container technologies (Docker, Kubernetes) and Version control workflows (Git, TFS).
-
-                👉 Extensive experience in Object Oriented and functional programming along analysis, design & development with C#, ASP.Net, MVC, AngularJS, Win forms, Salesforce, VB6.0, & Excel VBA with SOLID principles and database components to support Client/Server Technology and Web based applications.
-
-                👉 Experienced in analysis, design and development using Power tools and technologies with SQL Server, Sybase, Access and Oracle as database. Developed dashboards for senior executive using tools, Power BI, Power Query, DAX, Crystal Reports, SSRS, SSIS, Data Factory.
-
-                👉 Demonstrate self-discipline, flexibility and ability to work independently, as well as with a group. Experience in working for large, cross functional and complex projects, working for multiple projects, handling multiple tasks and implementations.
               </p>
             </section>
 
@@ -53,6 +39,7 @@ export default function About({ onBack }) {
                   <span className="text-2xl">🧰</span> Skills
                 </h2>
                 <ul className="space-y-2 bg-blue-50/50 p-6 rounded-2xl border border-blue-100 h-full">
+				  <li className="flex items-center gap-2"><span className="text-primary">•</span> AI Tools | RAG | MCP-Context</li>
                   <li className="flex items-center gap-2"><span className="text-primary">•</span> C# | Python | VBA</li>
                   <li className="flex items-center gap-2"><span className="text-primary">•</span> SQL | Power BI | DAX | Excel</li>
                   <li className="flex items-center gap-2"><span className="text-primary">•</span> Story Writing | Gap Analysis | BPML</li>
