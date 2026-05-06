@@ -18,20 +18,31 @@ export default function About({ onBack }) {
         <div className="bg-white w-full rounded-3xl shadow-xl border border-border p-8 md:p-12 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-2 bg-primary"></div>
 
-          <h1 className="text-3xl sm:text-4xl font-bold text-textPrimary mb-8 text-center">About Me</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-textPrimary mb-8 text-center">About Me: Suresh C. Kemnaik</h1>
 
           <div className="space-y-10 text-textSecondary">
 
             {/* Summary */}
             <section>
               <h2 className="text-xl font-bold text-textPrimary mb-3 flex items-center gap-2">
-                <span className="text-2xl">📋</span> Suresh C. Kemnaik
-              </h2>
-              <h2 className="text-xl font-bold text-textPrimary mb-3 flex items-center gap-2">
                 <span className="text-2xl">📋</span> Summary
               </h2>
               <p className="leading-relaxed bg-gray-50 p-6 rounded-2xl border border-border">
                 I am a Seasoned Technical AI Business Analyst with 10+ years of experience. Specialising in AI, Data analytics, turning complicated data insight into successful business strategies with proficiency in AI Tools, C#, Python, SQL and Power BI.
+
+                👉 Extensive experience in Insurance, Auto, Investment banking, Energy, Regulatory, Compliance, Credit Administration, Commodity software, Logistic, Media and Jewellery industry.
+
+                👉 Oversaw end-to-end Agile software development and product life cycle stages, including discovery, definition, development, testing, deployment, and post-launch optimization, resulting in 25% faster releases.
+
+                👉 Expertise in SDLC (Agile Scrum/ Waterfall / Kanban), Process flow design, Visio, UML, Use Cases, Activity diagrams, Sequence Diagrams, Data flow diagrams.
+
+                👉 Modern software development practice with CI/CD concepts, pipelines, Infrastructure as Code (IaC) tools Terraform. DevOps practices, automated testing, release automation, Cloud platforms (Azure, AWS, GCP), container technologies (Docker, Kubernetes) and Version control workflows (Git, TFS).
+
+                👉 Extensive experience in Object Oriented and functional programming along analysis, design & development with C#, ASP.Net, MVC, AngularJS, Win forms, Salesforce, VB6.0, & Excel VBA with SOLID principles and database components to support Client/Server Technology and Web based applications.
+
+                👉 Experienced in analysis, design and development using Power tools and technologies with SQL Server, Sybase, Access and Oracle as database. Developed dashboards for senior executive using tools, Power BI, Power Query, DAX, Crystal Reports, SSRS, SSIS, Data Factory.
+
+                👉 Demonstrate self-discipline, flexibility and ability to work independently, as well as with a group. Experience in working for large, cross functional and complex projects, working for multiple projects, handling multiple tasks and implementations.
               </p>
             </section>
 
